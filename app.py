@@ -1,6 +1,8 @@
-course = "Strings for python "
+course = "Strings for python"
 
-message = """damn this is new """
-
-print(message)
-print(message)
+print(course)
+print(len(course))
+print(course[0])
+print(course[-1])
+print(course[0:3])
+print(course[0:])
