@@ -1,9 +1,6 @@
-
-temperature = int(input("give me a number"))
-if temperature > 30:
-    print(f"it's temperature = {temperature}")
-elif temperature < 20:
-    print("its cold")
+age = 22
+if age > 18:
+    message = "it's eligible age since he is = {age}"
 else:
-    print("its fine i guess")
-print("done")
+    message = "not eligible"
+print(message)
