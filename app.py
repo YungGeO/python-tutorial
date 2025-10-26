@@ -1,6 +1,4 @@
-import math
+x = input("x: ")
 
-print(round(2.9))
-print(abs(-2.9))
-
-print(math.ceil(2.2))
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
