@@ -1,2 +1,7 @@
-for number in range(1, 10, 2):
-    print("Attempt", number, number * ".")
+succesful = True
+
+for number in range(3):
+    print("Attempt")
+    if succesful:
+        print("Successful")
+        break
