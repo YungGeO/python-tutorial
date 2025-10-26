@@ -1,6 +1,6 @@
-age = 22
+age = int(input("give me age"))
 if age > 18:
-    message = "it's eligible age since he is = {age}"
+    message = f"it's eligible age since he is = {age}"
 else:
     message = "not eligible"
 print(message)
