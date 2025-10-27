@@ -1,6 +1,5 @@
-def greet():
-    print("hi there")
-    print("welcome there")
+def increment(number, by):
+    return number+by
 
 
-greet()
+print(increment(2, 1))
