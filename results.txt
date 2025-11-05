@@ -75,3 +75,62 @@ u: 1
 
 ==============================
 
+Separated letters:
+g, e, p, r, g, e
+
+Letter Frequency:
+g: 2
+e: 2
+p: 1
+r: 1
+
+==============================
+
+Timestamp: 2025-11-05 20:28:55.176292
+Input: george
+Separated letters:
+g, e, o, r, g, e
+
+Letter Frequency:
+g: 2
+e: 2
+o: 1
+r: 1
+
+==============================
+
+Separated letters:
+g, e, o, r, g, e,  , z, a, c, h, a, r, i, a, s,  , m, a, g, k, a, s
+
+Letter Frequency:
+a: 5
+g: 3
+e: 2
+r: 2
+ : 2
+s: 2
+o: 1
+z: 1
+c: 1
+h: 1
+i: 1
+m: 1
+k: 1
+
+==============================
+
+Timestamp: 2025-11-05 20:46:39.058749
+Input: takis tsan
+Separated letters:
+t, a, k, i, s, t, s, a, n
+
+Letter Frequency:
+t: 2
+a: 2
+s: 2
+k: 1
+i: 1
+n: 1
+
+==============================
+
