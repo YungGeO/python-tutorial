@@ -35,8 +35,9 @@ while True:
         f.write("Separated letters:\n")
         f.write(", ".join(letters) + "\n\n")
         f.write("Letter Frequency:\n")
-        for char, freq in counts.items():
+        for char, freq in counts.most_common():
             f.write(f"{char}: {freq}\n")
+        f.write("\n" + "="*30 + "\n\n")  # seperate different inputs
 
     print("\n✅ Results saved to 'results.txt'.")
     break

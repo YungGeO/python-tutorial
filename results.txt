@@ -29,3 +29,21 @@ t: 1
 h: 1
 n: 1
 ?: 1
+Separated letters:
+g, e, o, r, g, i, o, s,  , z, a, c, h, a, r, i, a, s
+
+Letter Frequency:
+a: 3
+g: 2
+o: 2
+r: 2
+i: 2
+s: 2
+e: 1
+ : 1
+z: 1
+c: 1
+h: 1
+
+==============================
+
