@@ -18,12 +18,15 @@ while True:
 
     if len(user_input) > 30:
         print("Invalid input! Please enter a string with 30 characters or fewer.\n")
-    else:
-        letters = separatesssss_letters(user_input)
-        print("Separated letters:", letters)
-        counts = Counter(user_input)
-        print("Letter counts:", counts)
-        print("\nLetter Frequency:")
-        for char, freq in counts.items():
-            print(f"'{char}': {freq}")
-        break
+
+    if not is_valid_string(user_input):
+        print("Invalid input! Please enter a non-numeric, non-empty string.\n")
+        continue  # Ask again
+    letters = separatesssss_letters(user_input)
+    print("Separated letters:", letters)
+    counts = Counter(user_input)
+    print("Letter counts:", counts)
+    print("\nLetter Frequency:")
+    for char, freq in counts.items():
+        print(f"'{char}': {freq}")
+    break
