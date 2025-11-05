@@ -1,13 +1,10 @@
-def multiply(*numbers):
-    total = 1
-    for number in numbers:
-        if isinstance(number, (int, float)):
 
-            total *= number
-            print(number)
-        else:
-            print(f"skipping non-numeric value : {number}")
-    return total
+def separate_letters(text):
+    return list(text)
 
 
-print(multiply(2, 3, 4, 5, "test", 7))
+user_input = input("Enter a string: ")
+
+
+letters = separate_letters(user_input)
+print("Separated letters:", letters)
