@@ -31,4 +31,12 @@ while True:
     print("\nLetter Frequency:")
     for char, freq in counts.items():
         print(f"'{char}': {freq}")
+    with open("results.txt", "w", encoding="utf-8") as f:
+        f.write("Separated letters:\n")
+        f.write(", ".join(letters) + "\n\n")
+        f.write("Letter Frequency:\n")
+        for char, freq in counts.items():
+            f.write(f"{char}: {freq}\n")
+
+    print("\n✅ Results saved to 'results.txt'.")
     break
