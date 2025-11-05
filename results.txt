@@ -1,0 +1,15 @@
+Separated letters:
+g, e, o, r, g, i, o, s,  , z, a, c, h, a, r, i, a, s
+
+Letter Frequency:
+g: 2
+e: 1
+o: 2
+r: 2
+i: 2
+s: 2
+ : 1
+z: 1
+a: 3
+c: 1
+h: 1
