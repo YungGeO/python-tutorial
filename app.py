@@ -1,3 +1,5 @@
+from collections import Counter
+
 
 def separatesssss_letters(text):
     return list(text)
@@ -11,4 +13,9 @@ while True:
     else:
         letters = separatesssss_letters(user_input)
         print("Separated letters:", letters)
+        counts = Counter(user_input)
+        print("Letter counts:", counts)
+        print("\nLetter Frequency:")
+        for char, freq in counts.items():
+            print(f"'{char}': {freq}")
         break
