@@ -5,6 +5,14 @@ def separatesssss_letters(text):
     return list(text)
 
 
+"""Check if input is biger than > 0 and is  string"""
+
+
+def is_valid_string(s):
+
+    return not s.isdigit() and len(s.strip()) > 0
+
+
 while True:
     user_input = input("Enter a string (max 30 characters): ")
 
