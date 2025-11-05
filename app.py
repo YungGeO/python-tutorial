@@ -40,4 +40,8 @@ while True:
         f.write("\n" + "="*30 + "\n\n")  # seperate different inputs
 
     print("\n✅ Results saved to 'results.txt'.")
-    break
+
+    again = input("Analyze another string? (y/ye/yess to continue): ").lower()
+    if again not in ['y', 'ye', 'yes']:
+        print("Exiting program. Goodbye!")
+        break

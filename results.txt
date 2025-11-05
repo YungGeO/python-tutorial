@@ -47,3 +47,31 @@ h: 1
 
 ==============================
 
+Separated letters:
+y, e, s
+
+Letter Frequency:
+y: 1
+e: 1
+s: 1
+
+==============================
+
+Separated letters:
+t, a, k, i, s,  , t, s, a, n,  , b, i, g,  , f, u, n
+
+Letter Frequency:
+ : 3
+t: 2
+a: 2
+i: 2
+s: 2
+n: 2
+k: 1
+b: 1
+g: 1
+f: 1
+u: 1
+
+==============================
+
