@@ -87,7 +87,6 @@ r: 1
 ==============================
 
 Timestamp: 2025-11-05 20:28:55.176292
-Input: george
 Separated letters:
 g, e, o, r, g, e
 
@@ -131,6 +130,25 @@ s: 2
 k: 1
 i: 1
 n: 1
+
+==============================
+
+Timestamp: 2025-11-05 21:01:25.506661
+Input: python training
+Separated letters:
+p, y, t, h, o, n, t, r, a, i, n, i, n, g
+
+Letter Frequency:
+n: 3
+t: 2
+i: 2
+p: 1
+y: 1
+h: 1
+o: 1
+r: 1
+a: 1
+g: 1
 
 ==============================
 
