@@ -1,10 +1,14 @@
 
-def separate_letters(text):
+def separatesssss_letters(text):
     return list(text)
 
 
-user_input = input("Enter a string: ")
+while True:
+    user_input = input("Enter a string (max 30 characters): ")
 
-
-letters = separate_letters(user_input)
-print("Separated letters:", letters)
+    if len(user_input) > 30:
+        print("Invalid input! Please enter a string with 30 characters or fewer.\n")
+    else:
+        letters = separatesssss_letters(user_input)
+        print("Separated letters:", letters)
+        break
